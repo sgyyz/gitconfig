@@ -1,0 +1,15 @@
+[user]
+        name = Troy Young
+        email = itnote.yyz@gamil.com
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
+[alias]
+        st = status
+        cm = commit -m
+        co = checkout
+        plm = pull origin master
+        pld = pull origin develop
+        fp = fetch --prune
