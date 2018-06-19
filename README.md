@@ -7,3 +7,8 @@ alias g='git'
 ```
 curl https://raw.githubusercontent.com/sgyyz/gitconfig/master/gitconfig > ~/.gitconfig
 ```
+
+##### Sync Remote Branch
+```
+git fetch -p
+```
