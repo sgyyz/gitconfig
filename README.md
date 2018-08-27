@@ -22,4 +22,5 @@ Remove the `--global` flag in above command. And you can check it via `git confi
 ##### Sync Remote Branch
 ```
 git fetch -p
+git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -d
 ```
